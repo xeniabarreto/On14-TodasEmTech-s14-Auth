@@ -1,0 +1,41 @@
+plublic key
+
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTxgpjFAEv8ldtp5L3mvy9ZjbG
+digPQwFBqq9ZmuBu4TVIczt6klh99Ltv8TYksY6tYwAT9m7ESjUtQhySE1waHVUn
+owaf+54hRC+O+DAsXAvAAFsrnsK1UZ4KZ/G+6Yi6DuJ7qpTvPt5bkfLk0TMrgwJM
+VYjoaDCmpTW0qQ8EFwIDAQAB
+
+Primeira parte: HEADER > Segunda parte:PAYLOAD > Terceira parte: SECRET
+
+
+HASH criptografia
+Quanto maior a sequencia, maior é a segurança.
+
+OS MAIS FAMOSOS:
+    - FEBRABAM (boleto bancário)
+    - MD5 
+    - SHA (1/256/512) - o numero tem a ver com o tamanho
+    - BCRYPT vamos utilizar
+
+TIPOS:
+
+Simetricos - criptografado e descriptogradado com a mesma chave (seguro)
+Assimetricos - criptografado com chave publuca e descriptogradado com chave privada (+seguro)
+
+AUTENTICAÇÃO - senha, biometria, reconhecimento do cartao. Pode ser inserida condições, por ex valor do limite, bloquear cartao.  
+
+AUTORIZAÇÃO - até onde pode ir, até onde pode ver ex determinado site. Por ex. o Linkedin premium.
+
+AUTENTICAÇÃO
+Token, Senhas e Pins, chave publica e privada, SMS, biometrica, identidade visual.
+ 
+
+Conectando:
+    - Dar npm start no bash
+    - Conecta Mongo Compass
+    - Abre dois CMD - Prompt comando e ditiar em cada um:
+        Primeiro - mongod
+        Segundo - mongo > show dbs 
+    - npm install bcrypt
+
+
